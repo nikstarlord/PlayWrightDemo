@@ -18,7 +18,7 @@ public class OrderDishTest {
     }
 
     @Test
-    public void orderDishFromRestaurant(){
+    public void validateRestaurantName(){
         zomatoPage.navigateTo(Configuration.getBaseURL());
         zomatoPage.searchForRestaurant("Pizza Hut");
         zomatoPage.selectFirstResult();
