@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Playwright FrameWork Suite">
+    <test name="Order Dish Test">
+        <classes>
+            <class name="org.example.OrderDishTest" />
+        </classes>
+    </test>
+</suite>
